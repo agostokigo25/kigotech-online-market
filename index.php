@@ -1,0 +1,9 @@
+<?php require __DIR__.'/config/config.php'; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KigoTech Online Market</title><link rel="stylesheet" href="assets/style.css"></head>
+<body><header class="top"><a class="brand" href="index.php">KigoTech <span>Online Market</span></a><nav><button id="loginBtn">Phone / Email Login</button><button id="favBtn">♥ Favourites</button><button id="cartBtn">🛒 Cart <b id="cartCount">0</b></button><a href="my-orders.php">Track orders</a></nav></header>
+<section class="hero"><div><p class="eyebrow">SMART KITCHEN • BETTER LIVING</p><h1>Everything your kitchen needs.</h1><p>Shop quality utensils, cookware, pots and hotpots at friendly prices.</p><a class="cta" href="#shop">Shop collection</a></div><div class="hero-art">🍳<span>🥄</span>🍲</div></section>
+<main id="shop"><div class="section-head"><div><p class="eyebrow">OUR COLLECTION</p><h2>Shop by category</h2></div><input id="search" placeholder="Search utensils, pots..." /></div><div id="categories" class="chips"></div><div id="products" class="grid"></div></main>
+<section class="trust"><div>🚚 <b>Order delivery</b><small>Provide your delivery location</small></div><div>📦 <b>Track your order</b><small>Follow every order update</small></div><div>🔒 <b>Secure checkout</b><small>M-Pesa integration ready</small></div></section>
+<footer><b>KigoTech Online Market</b><p>Kitchen essentials made simple. Prices are in Kenya Shillings (KSh).</p><small>Product availability and delivery fees are confirmed when ordering.</small></footer>
+<div class="modal" id="modal"><div class="modal-card"><button class="close" id="closeModal">×</button><div id="modalBody"></div></div></div><div id="toast"></div>
+<script src="assets/app.js"></script></body></html>
